@@ -1,0 +1,9 @@
+---
+- hosts : [mongo]
+  roles:
+     - Stouts.mongodb
+#    - ansible-role-mongodb
+  vars:
+   mongodb_shell:
+     fynd_db:
+      - rs.initiate()

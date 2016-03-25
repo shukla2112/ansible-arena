@@ -1,0 +1,11 @@
+---
+- hosts : [mysql-slave]
+  roles:
+     - ansible-role-mysql
+#    - ansible-role-mongodb
+#  vars:
+#     - mysql_server_id: "2"            
+#       mysql_max_binlog_size: "100M"
+#       mysql_expire_logs_days: "10"
+#       mysql_replication_role: 'slave'
+#       mysql_replication_master: '172.31.21.42'

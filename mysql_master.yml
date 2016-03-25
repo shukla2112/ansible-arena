@@ -1,0 +1,12 @@
+---
+- hosts : [mysql-master]
+  roles:
+     - ansible-role-mysql
+#  vars:
+#     - mysql_server_id: "1"
+#       mysql_replication_role: 'master'
+#       mysql_replication_user:
+#          - name: myfyndreuser
+#            host: "%"
+#            password: secret1
+#            priv: "*.*:ALL"

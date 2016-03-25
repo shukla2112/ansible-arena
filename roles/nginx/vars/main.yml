@@ -1,0 +1,4 @@
+---
+domain: awsomelabs.com
+ssl_key: /etc/ssl/asl/asl.key
+ssl_crt: /etc/ssl/asl/asl.crt
